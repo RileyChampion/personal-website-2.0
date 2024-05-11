@@ -1,0 +1,145 @@
+#landing {
+    background-color: #2D3142;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#landing-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 93%;
+    position: relative;
+    z-index: 4;
+}
+.landing-title {
+}
+.landing-name {
+    display: flex;
+    height: 33vh;
+}
+.landing-name-first h1 {
+    font-size: 24em;
+    line-height: 1.75ch;
+    
+}
+.landing-name-last {
+    height: fit-content;
+}
+.landing-name-last h2 {
+/* C H A M P I O N */
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    letter-spacing: -22px;
+    font-size: 2.05em;
+}
+.landing-info ul {
+    margin-left: 1px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.landing-icons ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 1px;
+    font-size: 2em;
+    gap: 100px;
+    margin-left: 6px;
+}
+.landing-image-container { 
+    display: flex;
+    align-items: center;
+}
+.landing-image {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+.landing-continue-icon {
+    font-size: 2em;
+}
+
+@keyframes ray-one-animation {
+    0% {
+        left: -158px;
+    }
+
+    50% {
+        left: -138px;
+    }
+
+    100% {
+        left: -158px;
+    }
+}
+@keyframes ray-two-animation {
+    0% {
+        left: -100px;
+    }
+
+    50% {
+        left: -80px;
+    }
+
+    100% {
+        left: -100px;
+    }
+}
+@keyframes ray-three-animation {
+    0% {
+        left: -40px;
+    }
+
+    50% {
+        left: -20px;
+    }
+
+    100% {
+        left: -40px;
+    }
+}
+
+.ray-one {
+    position: relative;
+    height: 123vh;
+    left: -158px;
+    bottom: 100vh;
+    width: 33vw;
+    background: #4C5970;
+    transform: rotate(347deg);
+    z-index: 3;
+    animation-name: ray-one-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 100ms;
+}
+.ray-two {
+    position: relative;
+    height: 123vh;
+    left: -100px;
+    bottom: 223vh;
+    width: 33vw;
+    background: #475369;
+    transform: rotate(347deg);
+    z-index: 2;
+    animation-name: ray-two-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+}
+.ray-three {
+    position: relative;
+    height: 123vh;
+    left: -40px;
+    bottom: 346vh;
+    width: 33vw;
+    background: #3C465A;
+    transform: rotate(347deg);
+    z-index: 1;
+    animation-name: ray-three-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+}
