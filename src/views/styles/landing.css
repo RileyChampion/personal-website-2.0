@@ -12,8 +12,6 @@
     position: relative;
     z-index: 4;
 }
-.landing-title {
-}
 .landing-name {
     display: flex;
     height: 33vh;
