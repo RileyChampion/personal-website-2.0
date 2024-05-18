@@ -6,6 +6,7 @@ import logo from './resources/riley.svg'
 function App() {
   return (
     <div className="App">
+      
       <LandingPage/>
     </div>
   );

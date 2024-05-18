@@ -1,5 +1,7 @@
+@import '../../main.scss';
+
 #landing {
-    background-color: #2D3142;
+    background-color: $background-color;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -14,7 +16,7 @@
 }
 .landing-name {
     display: flex;
-    height: 33vh;
+    height: 300px;
 }
 .landing-name-first h1 {
     font-size: 24em;
@@ -37,6 +39,13 @@
     list-style-type: none;
     justify-content: space-around;
     font-size: 2rem;
+    li {
+        color: $text-color-secondary;
+        transition: 0.3s;
+    }
+    .landing-info-text:hover {
+        color: $text-color-primary;
+    }
 }
 .landing-icons ul {
     display: flex;
@@ -45,6 +54,15 @@
     font-size: 2em;
     gap: 100px;
     margin-left: 6px;
+    path {
+        fill: $text-color-secondary !important;
+        transition: 0.3s;
+    }
+    li:hover {
+        path {
+            fill: $text-color-primary !important;
+        }
+    }
 }
 .landing-image-container { 
     display: flex;
