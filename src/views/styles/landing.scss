@@ -67,11 +67,19 @@
 .landing-image-container { 
     display: flex;
     align-items: center;
-}
-.landing-image {
-    height: 300px;
-    width: 300px;
-    background-color: gray;
+
+    .landing-image {
+        height: 300px;
+        width: 300px;
+        -webkit-animation: fade 5s linear forwards;
+        animation: fade 5s linear forwards;
+    }
+    .image-visible {
+        display: block;
+    }
+    .image-invisible {
+        display: none;
+    }
 }
 .landing-continue-icon {
     font-size: 2em;
@@ -116,6 +124,11 @@
         left: -40px;
     }
 }
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    25%,75% { opacity: 1 }
+  }
 
 .ray-one {
     position: relative;

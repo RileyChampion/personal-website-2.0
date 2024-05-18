@@ -85,7 +85,9 @@ function LandingPage() {
                     </div>
                 </div>
                 <div className="landing-image-container">
-                    <div className="landing-image"></div>
+                    <div className={`landing-image ${selectedInfo === 0 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'red'}}></div>
+                    <div className={`landing-image ${selectedInfo === 1 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'blue'}}></div>
+                    <div className={`landing-image ${selectedInfo === 2 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'gray'}}></div>
                 </div>
             </div>
             <div className="landing-continue-icon">
