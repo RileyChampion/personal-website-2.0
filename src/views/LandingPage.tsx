@@ -2,7 +2,7 @@ import React from "react";
 import './styles/landing.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faFileLines, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+import { faFileLines, faAngleDoubleDown, faDiceD20, faCode, faObjectGroup} from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -85,13 +85,16 @@ function LandingPage() {
                     </div>
                 </div>
                 <div className="landing-image-container">
-                    <div className={`landing-image ${selectedInfo === 0 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'red'}}></div>
-                    <div className={`landing-image ${selectedInfo === 1 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'blue'}}></div>
-                    <div className={`landing-image ${selectedInfo === 2 ? 'image-visible' : 'image-invisible'}`} style={{backgroundColor: 'gray'}}></div>
+                    <div className={`landing-image ${selectedInfo === 0 ? 'image-visible' : 'image-invisible'}`}><FontAwesomeIcon icon={faCode} /></div>
+                    <div className={`landing-image ${selectedInfo === 1 ? 'image-visible' : 'image-invisible'}`}><FontAwesomeIcon icon={faObjectGroup} /></div>
+                    <div className={`landing-image ${selectedInfo === 2 ? 'image-visible' : 'image-invisible'}`}><FontAwesomeIcon icon={faDiceD20} /></div>
                 </div>
             </div>
+            <div id="landing-container-tablet">
+                
+            </div>
             <div className="landing-continue-icon">
-                <FontAwesomeIcon icon={faAngleDoubleDown}/>
+                {/* <FontAwesomeIcon icon={faAngleDoubleDown}/> */}
             </div>
             <div className="ray-one"></div>
             <div className="ray-two"></div>

@@ -67,12 +67,16 @@
 .landing-image-container { 
     display: flex;
     align-items: center;
+    width: 350px;
+    justify-content: center;
 
     .landing-image {
-        height: 300px;
-        width: 300px;
+        font-size: 260px;
         -webkit-animation: fade 5s linear forwards;
         animation: fade 5s linear forwards;
+        path {
+            fill: #4d5970;
+        }
     }
     .image-visible {
         display: block;
@@ -83,7 +87,15 @@
 }
 .landing-continue-icon {
     font-size: 2em;
+    text-align: center;
+    height: 7%;
 }
+
+
+#landing-container-tablet {
+    display: none;
+}
+
 
 @keyframes ray-one-animation {
     0% {
@@ -128,7 +140,7 @@
 @keyframes fade {
     0%,100% { opacity: 0 }
     25%,75% { opacity: 1 }
-  }
+}
 
 .ray-one {
     position: relative;
