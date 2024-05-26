@@ -13,6 +13,10 @@
     height: 93%;
     position: relative;
     z-index: 4;
+
+    @media screen and (max-width: $layout-tablet-start) {
+        display: none;
+    }
 }
 .landing-name {
     display: flex;
@@ -94,6 +98,21 @@
 
 #landing-container-tablet {
     display: none;
+
+    @media (max-width: $layout-tablet-start) {
+        display: flex;
+        position: relative;
+        z-index: 4;
+        height: 93%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-name-first-mobile h1 {
+        font-size: 9ch;
+        line-height: 0.75em;    
+    }
 }
 
 

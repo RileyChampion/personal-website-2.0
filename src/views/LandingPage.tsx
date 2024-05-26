@@ -5,6 +5,7 @@ import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFileLines, faAngleDoubleDown, faDiceD20, faCode, faObjectGroup} from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 import { useEffect } from "react";
+import Typewriter from 'typewriter-effect';
 
 let intervalId : any = null;
 
@@ -78,7 +79,7 @@ function LandingPage() {
                     </div>
                     <div className="landing-icons">
                         <ul>
-                            <li><a href="src/resources/Riley_Champion_Resume.pdf" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon  icon={faFileLines} className="landing-icon" /></a></li>
+                            <li><a href="/Riley_Champion_Resume.pdf" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon  icon={faFileLines} className="landing-icon" /></a></li>
                             <li><a href="https://github.com/RileyChampion" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faSquareGithub} className="landing-icon" /></a></li>
                             <li><a href="https://www.linkedin.com/in/rileychampion/" target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faLinkedin} className="landing-icon" /></a></li>
                         </ul>
@@ -91,7 +92,18 @@ function LandingPage() {
                 </div>
             </div>
             <div id="landing-container-tablet">
-                
+                <div className="landing-name-first-mobile">
+                    <h1>Riley</h1>
+                </div>
+                <div className="landing-name-last-mobile">
+                    <h2>Champion</h2>
+                </div>
+                <Typewriter options={{
+                        strings: ['Software Engineer', 'Front End Developer', 'Part-Time Dnd Nerd'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
             </div>
             <div className="landing-continue-icon">
                 {/* <FontAwesomeIcon icon={faAngleDoubleDown}/> */}
