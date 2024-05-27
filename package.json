@@ -1,7 +1,7 @@
 {
   "name": "personal-website-2.0",
   "version": "0.1.0",
-  "homepage": "https://rileychampion.github.io/personal-website-2.0",
+  "homepage": "https://rileychampion.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
