@@ -22,6 +22,10 @@ function LandingPage() {
         }
     }
 
+    function openLink(url : string) : any {
+        window.open(url, '_blank', 'noopener noreferrer')
+    }
+
     useEffect(() => {
         intervalId = setInterval(() => {
             console.log(`Current Index: ${selectedInfo}`);
@@ -104,6 +108,32 @@ function LandingPage() {
                             loop: true,
                         }}
                     />
+                    <div className="landing-info-buttons-container">
+                        <a className="landing-info-button"
+                            href={process.env.PUBLIC_URL + "/Riley_Champion_Resume.pdf"}
+                            target="_blank" rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faFileLines} className="landing-info-button-icon" />
+                            <div className="landing-info-button-text">
+                                <h4>Resume</h4>
+                            </div>
+                        </a>
+                        <a className="landing-info-button"
+                            href="https://github.com/RileyChampion"
+                            target="_blank" rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faSquareGithub} className="landing-info-button-icon" />
+                            <div className="landing-info-button-text">
+                                <h4>GitHub</h4>
+                            </div>
+                        </a>
+                        <a className="landing-info-button"
+                            href="https://www.linkedin.com/in/rileychampion/"
+                            target="_blank" rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faLinkedin} className="landing-info-button-icon" />
+                            <div className="landing-info-button-text">
+                                <h4>LinkedIn</h4>
+                            </div>
+                        </a>
+                    </div>
             </div>
             <div className="landing-continue-icon">
                 {/* <FontAwesomeIcon icon={faAngleDoubleDown}/> */}

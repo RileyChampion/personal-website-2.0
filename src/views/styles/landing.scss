@@ -111,37 +111,93 @@
 
     @media (max-width: $layout-tablet-start) and (min-width: $layout-mobile-start) {
         .landing-name-first-mobile h1 {
-            font-size: 20vw;
+            font-size: 23vw;
             line-height: 0.75em;
         }
     
         .landing-name-last-mobile h2 {
-            font-size: 10.5vw;
+            font-size: 12.5vw;
             line-height: 1em;
         }
         
         .Typewriter {
-            font-size: 4vw;
+            font-size: 4.5vw;
+        }
+
+        .landing-info-button {
+            width: 16.50vw;
+            height: 16.50vw;
+
+            .landing-info-button-icon {
+                font-size: 7vw;
+            }
+
+            .landing-info-button-text h4 {
+                font-size: 3.35vw;
+            }
         }
     }
 
     @media (max-width: $layout-mobile-start) {
         .landing-name-first-mobile h1 {
-            font-size: 12ch;
+            font-size: 14ch;
             line-height: 0.75em;    
         }
     
         .landing-name-last-mobile h2 {
-            font-size: 6.5ch;
+            font-size: 7.5ch;
             line-height: 1em;
         }
         
         .Typewriter {
-            font-size: 2.5ch;
+            font-size: 2.75ch;
+        }
+        
+        .landing-info-button {
+            width: 80px;
+            height: 80px;
+
+            .landing-info-button-icon {
+                font-size: 2.10em;
+            }
+
+            .landing-info-button-text h4 {
+                font-size: 16px;
+            }
         }
     }
+}
 
-    
+.landing-info-buttons-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.landing-info-button {
+
+    background-color: $text-color-primary;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &:nth-of-type(2) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    path {
+        fill: $background-color;
+    }
+
+    .landing-info-button-text h4 {
+        color: $background-color;
+        font-family: 'Koulen', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    }
 }
 
 
