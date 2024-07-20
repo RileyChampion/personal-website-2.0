@@ -136,7 +136,7 @@ function LandingPage() {
                     </div>
             </div>
             <div className="landing-continue-icon">
-                {/* <FontAwesomeIcon icon={faAngleDoubleDown}/> */}
+                <FontAwesomeIcon icon={faAngleDoubleDown}/>
             </div>
             <div className="ray-one"></div>
             <div className="ray-two"></div>
