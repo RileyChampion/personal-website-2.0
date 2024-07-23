@@ -1,0 +1,53 @@
+@import '../../main.scss';
+
+#about-me {
+    background-color: $background-color-secondary;
+    box-shadow: inset 0px 9px 20px rgba(0, 0, 0, 0.25);
+}
+
+#about-me-container {
+    padding: 27px 0;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+#about-me-title > h2 {
+    font-size: 11ch;
+}
+
+#about-me-content {
+    display: flex;
+    .about-me-content-image-box {
+        background-color: $text-color-primary;
+        padding: 18px;
+        border-radius: 5px;
+        position: relative;
+        left: 34px;
+        margin: 20px 0px;
+    }
+    .about-me-content-info-box {
+        background-color: #282E3D;
+        border-radius: 5px;
+        padding: 11px 36px 36px 53px;
+        max-width: 500px;
+        
+        .about-me-content-info {
+            h4 {
+                font-size: 7ch;
+                line-height: 2.5ch;
+            }
+            p {
+                font-size: 2.25ch;
+                margin-bottom: 5px;
+            }
+            .about-me-content-info-buttons-container {
+                display: flex;
+                gap: 10px;
+                button:active {
+                    color: #282E3D;
+                }
+            }
+        }
+    }
+}

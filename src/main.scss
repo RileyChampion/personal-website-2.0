@@ -5,3 +5,21 @@ $background-color-secondary: #3B4357;
 $text-color-primary: #ffffff;
 $text-color-secondary: #BFC0C0;
 $accent-color: #EF8254;
+
+button {
+    background: none;
+    border-color: white;
+    border-radius: 5px;
+    border-width: initial;
+    width: 100%;
+    padding: 10px 0px;
+    border-style: solid;
+    font-family: unset;
+    font-size: 2.25ch;
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        background-color: white;
+    }
+}
