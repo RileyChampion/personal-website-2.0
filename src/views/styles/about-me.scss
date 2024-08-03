@@ -1,4 +1,5 @@
 @import '../../main.scss';
+@import '../../animations.scss';
 
 #about-me {
     background-color: $background-color-secondary;
@@ -6,7 +7,7 @@
 }
 
 #about-me-container {
-    padding: 27px 0;
+    padding: 27px 0 83px 0;
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -25,21 +26,29 @@
         position: relative;
         left: 34px;
         margin: 20px 0px;
+        animation: fade-in 1s, float-up 1s;
+        z-index: 10;
     }
     .about-me-content-info-box {
         background-color: #282E3D;
         border-radius: 5px;
         padding: 11px 36px 36px 53px;
         max-width: 500px;
+        max-height: 638px;
+        animation: fade-in 1.5s, float-up 1.5s;
         
         .about-me-content-info {
+            height: 100%;
             h4 {
                 font-size: 7ch;
                 line-height: 2.5ch;
             }
-            p {
-                font-size: 2.25ch;
-                margin-bottom: 5px;
+            .about-me-content-info-text {
+                height: 80%;
+                p {
+                    font-size: 2.25ch;
+                    margin-bottom: 5px;
+                }
             }
             .about-me-content-info-buttons-container {
                 display: flex;

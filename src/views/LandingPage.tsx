@@ -12,7 +12,7 @@ let intervalId : any = null;
 function LandingPage() {
     const [selectedInfo, setSelectedInfo] = useState(0);
 
-    function settingSelectedInfo(index : number) : void {
+    const settingSelectedInfo = (index : number) => {
         console.log(index);
         if(index > 2){
             setSelectedInfo(0);
@@ -22,9 +22,13 @@ function LandingPage() {
         }
     }
 
-    function openLink(url : string) : any {
-        window.open(url, '_blank', 'noopener noreferrer')
-    }
+    const jumpToReleventDiv = (id) => {
+        const releventDiv = document.getElementById(id);
+        console.log(releventDiv)
+        if (releventDiv) {
+            releventDiv.scrollIntoView({behavior: "smooth"});
+        }
+      }
 
     useEffect(() => {
         intervalId = setInterval(() => {
@@ -136,7 +140,9 @@ function LandingPage() {
                     </div>
             </div>
             <div className="landing-continue-icon">
-                <FontAwesomeIcon icon={faAngleDoubleDown}/>
+                <div>
+                    <FontAwesomeIcon onClick={() => jumpToReleventDiv("about-me")} icon={faAngleDoubleDown}/>
+                </div>
             </div>
             <div className="ray-one"></div>
             <div className="ray-two"></div>
