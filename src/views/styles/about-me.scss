@@ -26,16 +26,18 @@
         position: relative;
         left: 34px;
         margin: 20px 0px;
-        animation: fade-in 1s, float-up 1s;
-        z-index: 10;
+        height: fit-content;
+
+        img {
+            border-radius: 5px;
+        }
     }
     .about-me-content-info-box {
         background-color: #282E3D;
         border-radius: 5px;
         padding: 11px 36px 36px 53px;
         max-width: 500px;
-        max-height: 638px;
-        animation: fade-in 1.5s, float-up 1.5s;
+        height: 638px;
         
         .about-me-content-info {
             height: 100%;
