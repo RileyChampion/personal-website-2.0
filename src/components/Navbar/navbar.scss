@@ -1,0 +1,38 @@
+@import '../../main.scss';
+
+#navbar {
+    position: fixed;
+    z-index: 100;
+    width: calc(100vw - 16px);
+}
+#navbar-container {
+    padding: 10px 30px 5px;
+    display: flex;
+}
+#navbar-logo-container {
+    width: 50%;
+}
+#navbar-links-container {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    gap: 50px;
+    .navbar-link {
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.nav-background-hidden {
+    background-color: transparent;
+    transition: 0.15s;
+}
+.nav-background-shown {
+    background-color: $background-color;
+    transition: 0.15s;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}

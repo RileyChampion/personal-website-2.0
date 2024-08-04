@@ -1,11 +1,13 @@
 
 import LandingPage from './views/LandingPage.tsx';
-import {Container, Navbar} from 'react-bootstrap'
 import AboutMe from './views/AboutMe.tsx';
+import Navbar from './components/Navbar/Navbar.tsx';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <Navbar />
       <LandingPage/>
       <AboutMe />
     </div>

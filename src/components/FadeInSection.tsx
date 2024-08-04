@@ -12,8 +12,6 @@ function FadeInSection({children, fadeIn, floatUp, customStyle} : FadeInSectionP
     const [isVisible, setIsVisible] = useState(false);
     const domRef = useRef<HTMLDivElement | null>(null);
 
-    console.log(customStyle)
-
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {

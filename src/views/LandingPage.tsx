@@ -6,6 +6,7 @@ import { faFileLines, faAngleDoubleDown, faDiceD20, faCode, faObjectGroup} from 
 import { useState } from "react";
 import { useEffect } from "react";
 import Typewriter from 'typewriter-effect';
+import {jumpToReleventDiv} from '../utils/utils';
 
 let intervalId : any = null;
 
@@ -13,7 +14,6 @@ function LandingPage() {
     const [selectedInfo, setSelectedInfo] = useState(0);
 
     const settingSelectedInfo = (index : number) => {
-        console.log(index);
         if(index > 2){
             setSelectedInfo(0);
         }
@@ -22,17 +22,10 @@ function LandingPage() {
         }
     }
 
-    const jumpToReleventDiv = (id) => {
-        const releventDiv = document.getElementById(id);
-        console.log(releventDiv)
-        if (releventDiv) {
-            releventDiv.scrollIntoView({behavior: "smooth"});
-        }
-      }
+    
 
     useEffect(() => {
         intervalId = setInterval(() => {
-            console.log(`Current Index: ${selectedInfo}`);
             settingSelectedInfo(selectedInfo + 1);
         }, 5000);
         return () => {
