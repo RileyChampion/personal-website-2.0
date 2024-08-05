@@ -1,8 +1,11 @@
 import React, {useEffect, useState} from "react"
 import './navbar.scss';
 
+interface NavbarProps {
+    toggleModal: (state : boolean) => void
+};
 
-function Navbar() {
+function Navbar({toggleModal} : NavbarProps) {
     const [isAtTop, setIsAtTop] = useState(true);
 
     const handleScroll = () => {
@@ -15,7 +18,6 @@ function Navbar() {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-        console.log('topping');
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -38,7 +40,7 @@ function Navbar() {
                     <div className="navbar-link"><a href="#about-me">About Me</a></div>
                     <div className="navbar-link"><a href="#experience">Experience</a></div>
                     <div className="navbar-link"><a href="#projects">Projects</a></div>
-                    <div className="navbar-link">Contacts</div>
+                    <div onClick={() => toggleModal(true)} className="navbar-link">Contacts</div>
                 </div>
             </div>
       </nav>

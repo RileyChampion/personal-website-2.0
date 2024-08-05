@@ -1,0 +1,50 @@
+#contact-modal-background {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.50);
+    z-index: 1000;
+    display: flex;
+}
+#contact-modal-card {
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    .contact-modal-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        h2, h4 {
+            color: black !important;
+        }
+        .contact-modal-image {
+            border-radius: 100%;
+            overflow: hidden;
+            height: 100px;
+            width: 100px;
+            img {
+                position: relative;
+                top: -55px;
+            }
+        }
+    }
+}
+#contact-modal-content {
+    padding: 25px;
+    button {
+        border-color: black;
+        color: black;
+        transition: 250ms;
+        &:hover {
+            background-color: rgb(231, 231, 229);
+            transition: 250ms;
+        }
+    }
+    .contact-modal-link:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
