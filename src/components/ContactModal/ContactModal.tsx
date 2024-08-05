@@ -8,7 +8,7 @@ interface ContactModalProps {
 function ContactModal({toggleModal} : ContactModalProps) {
     
     return(
-        <div onClick={(e) => toggleModal(false)} id="contact-modal-background">
+        <div onClick={(e) => toggleModal(false)} id="contact-modal-background" style={{animation: "fade-in 0.5s ease-in-out"}}>
             <div id="contact-modal-card" onClick={(e) => e.stopPropagation()} style={{animation: "fade-in 0.5s ease-in-out, float-up 1s ease-in-out"}}>
                 <div id="contact-modal-content">
                     <div className="contact-modal-image-container">

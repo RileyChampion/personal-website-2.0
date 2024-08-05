@@ -10,20 +10,26 @@
     display: flex;
 }
 #navbar-logo-container {
-    width: 50%;
+    width: 20%;
 }
 #navbar-links-container {
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
-    width: 50%;
+    width: 80%;
     gap: 50px;
+    font-size: 2.15ch;
     .navbar-link {
         cursor: pointer;
+        transition: 250ms ease-in-out;
         a {
             text-decoration: none;
             display: flex;
             align-items: center;
+        }
+        &:hover {
+            color: $accent-color;
+            transition: 250ms ease-in-out;
         }
     }
 }

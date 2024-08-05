@@ -3,9 +3,9 @@ import '../animations.scss'
 
 interface FadeInSectionProps {
     children: React.ReactNode;
-    fadeIn: string
-    floatUp: string
-    customStyle: React.CSSProperties
+    fadeIn: string;
+    floatUp: string;
+    customStyle: React.CSSProperties;
 }
 
 function FadeInSection({children, fadeIn, floatUp, customStyle} : FadeInSectionProps){

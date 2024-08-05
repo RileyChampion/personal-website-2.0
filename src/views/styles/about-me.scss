@@ -19,17 +19,18 @@
 
 #about-me-content {
     display: flex;
+
     .about-me-content-image-box {
         background-color: $text-color-primary;
         padding: 18px;
         border-radius: 5px;
         position: relative;
-        left: 34px;
         margin: 20px 0px;
         height: fit-content;
 
         img {
             border-radius: 5px;
+            object-fit: contain;
         }
     }
     .about-me-content-info-box {
@@ -61,4 +62,39 @@
             }
         }
     }
+}
+
+@media screen and (min-width: $layout-tablet-start) {
+    #about-me-content {
+        flex-direction: row;
+        .about-me-content-image-box {
+            left: 34px;
+            height: 600px;
+            img {
+            }
+        }
+        .about-me-content-info-box {
+            .about-me-content-info {
+            }
+        }
+    }
+}
+@media (max-width: $layout-tablet-start) and (min-width: $layout-mobile-start) {
+    #about-me-content {
+        flex-direction: column;
+        .about-me-content-image-box {
+            height: 600px;
+            width: 482.422px;
+            img {
+            }
+        }
+        .about-me-content-info-box {
+            .about-me-content-info {
+            }
+        }
+    }
+
+}
+@media (max-width: $layout-mobile-start) {
+
 }

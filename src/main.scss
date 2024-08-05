@@ -4,6 +4,8 @@ $background-color: #2D3142;
 $background-color-secondary: #3B4357;
 $text-color-primary: #ffffff;
 $text-color-secondary: #BFC0C0;
+$text-font-primary: 'Koulen';
+$text-font-secondary: 'Roboto';
 $accent-color: #EF8254;
 
 button {
@@ -16,11 +18,15 @@ button {
     border-style: solid;
     font-family: unset;
     font-size: 2.25ch;
+    transition: 200ms;
     &:hover {
         cursor: pointer;
+        background-color: white;
+        color: $background-color;
+        transition: 200ms;
     }
     &:active {
-        background-color: white;
+        background-color: rgb(231, 231, 229);
     }
 }
 

@@ -1,3 +1,5 @@
+@import '../../main.scss';
+
 #contact-modal-background {
     position: fixed;
     top: 0;
@@ -9,7 +11,7 @@
 }
 #contact-modal-card {
     width: 400px;
-    background: white;
+    background: linear-gradient(224deg, #3B4357 31.74%, #2D3142 55.33%);
     border-radius: 15px;
     margin: auto;
     .contact-modal-image-container {
@@ -17,9 +19,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 15px;
-        h2, h4 {
-            color: black !important;
+        margin-bottom: 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        h2 {
+            font-weight: 200;
+        }
+        h4 {
+            font-family: $text-font-secondary, 'sans-serif';
+            font-weight: 400;
         }
         .contact-modal-image {
             border-radius: 100%;
@@ -34,17 +41,21 @@
     }
 }
 #contact-modal-content {
-    padding: 25px;
+    padding: 25px 45px;
     button {
-        border-color: black;
-        color: black;
+        background-color: #fff;
+        color: $background-color;
         transition: 250ms;
+        border-width: 0;
+        padding: 15px 0px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
         &:hover {
             background-color: rgb(231, 231, 229);
             transition: 250ms;
         }
     }
     .contact-modal-link:not(:last-child) {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 }

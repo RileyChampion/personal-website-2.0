@@ -38,12 +38,15 @@
     letter-spacing: -22px;
     font-size: 2.05em;
 }
+.landing-info {
+    padding-right: 21px;
+}
 .landing-info ul {
     margin-left: 1px;
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
-    font-size: 2rem;
+    justify-content: space-between;
+    font-size: 1.80rem;
     animation: fade-in 1.5s , float-up 1s;
     li {
         color: $text-color-secondary;
