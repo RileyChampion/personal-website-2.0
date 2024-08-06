@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import './contact-modal.scss';
+import RileyPicture from '../../images/riley.jpg';
 
 interface ContactModalProps {
     toggleModal: (state : boolean) => void
@@ -14,7 +15,7 @@ function ContactModal({toggleModal} : ContactModalProps) {
                     <div className="contact-modal-image-container">
                         <div className="contact-modal-image">
                             <img
-                                src={process.env.PUBLIC_URL + '/riley.jpg'}
+                                src={RileyPicture}
                                 height="200px"
                             />
                         </div>

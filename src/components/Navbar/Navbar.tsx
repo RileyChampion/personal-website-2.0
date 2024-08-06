@@ -9,7 +9,7 @@ function Navbar({toggleModal} : NavbarProps) {
     const [isAtTop, setIsAtTop] = useState(true);
 
     const handleScroll = () => {
-        if(window.scrollY <= 100) {
+        if(window.scrollY <= 50) {
             setIsAtTop(true);
         } else {
             setIsAtTop(false);

@@ -100,6 +100,8 @@
     font-size: 2em;
     text-align: center;
     height: 7%;
+    position: relative;
+    z-index: 11;
     div {
         :hover {
             cursor: pointer;

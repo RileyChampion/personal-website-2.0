@@ -1,6 +1,7 @@
 import React from "react";
 import FadeInSection from "../components/FadeInSection.tsx";
 import './styles/about-me.scss'
+import RileyPicture from '../images/riley.jpg';
 
 function AboutMe() {
     return(
@@ -12,7 +13,9 @@ function AboutMe() {
                 <div id="about-me-content">
                     <FadeInSection fadeIn="1s" floatUp="1s" customStyle={{zIndex: 10}}>
                         <div className="about-me-content-image-box">
-                            <img className="about-me-content-image" loading="lazy" src={process.env.PUBLIC_URL + "/riley.jpg"} style={{height: '600px'}} alt="Riley Champion" />
+                            <img src={RileyPicture} 
+                                className="about-me-content-image"
+                            />
                         </div>
                     </FadeInSection>
                     <FadeInSection fadeIn="1.25s" floatUp="1.25s">
