@@ -3,7 +3,7 @@
 
 #about-me {
     background-color: $background-color-secondary;
-    box-shadow: inset 0px 9px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 12px 10px 0px rgba(0, 0, 0, 0.25)
 }
 
 #about-me-container {
@@ -71,7 +71,7 @@
         .about-me-content-image-box {
             width: 500px;
             left: 34px;
-            height: 600px;
+            height: 94%;
             margin: 20px 0px;
         }
         .about-me-content-info-box {

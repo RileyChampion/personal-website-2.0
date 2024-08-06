@@ -1,0 +1,101 @@
+@import '../../main.scss';
+
+#experience {
+    background-color: $background-color-secondary;
+}
+#experience-container {
+    padding: 56px 10% 74px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+#experience-title > h2 {
+    font-size: 11ch;
+}
+.experience-content-container {
+    display: flex;
+    margin-bottom: 30px;
+    h1,h2,h3,h4,h5 {
+        font-weight: 400;
+    }
+    p {
+        font-family: 'Roboto', 'sans-serif';
+    }
+    .experience-content-graphic {
+        margin: 0px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0px 6px 8.3px rgba(0, 0, 0, 0.25);
+        width: 690px;
+        height: 250px;
+        h5 {
+            font-size: 3ch;
+        }
+    }
+    .experience-content-text-container {
+        width: 100%;
+        .experience-content-text-title {
+            .experience-content-text-title-year {
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                h3 {
+                    font-size: 4ch;
+                    line-height: 1.5ch;
+                }
+                h5 {
+                    font-size: 2ch;
+                    color: $text-color-secondary;
+                }
+            }
+            h4 {
+                font-size: 2.5ch;
+                line-height: 1.5ch;
+            }
+            margin-bottom: 10px;
+        }
+        .experience-content-text-summary {
+            font-size: 2ch;
+            margin-bottom: 10px;
+        }
+        .experience-content-text-tech-list {
+            font-size: 1.75ch;
+            font-weight: 300;
+        }
+    }
+}
+
+@media (max-width: $layout-tablet-start) {
+    .experience-content-container {
+        flex-direction: column;
+        .experience-content-graphic {
+            width: 78vw;
+            height: 50px;
+            padding: 20px;
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+@media (max-width: $layout-mobile-start) {
+    .experience-content-container {
+        .experience-content-text-container {
+            .experience-content-text-title {
+                .experience-content-text-title-year {
+                    h3 {
+                        font-size: 3ch;
+                    }
+                    h5 {
+                        font-size: 1.5ch;
+                    }
+                }
+                h4 {
+                    font-size: 2ch;
+                }
+            }
+        }
+    }
+}

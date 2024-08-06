@@ -1,18 +1,29 @@
-{
-    "2023" : {
-        "JPMorgan Chase" : {
-            "start" : 2023,
-            "end" : 2024,
-            "experience" : [],
-            "tech" :  ["ReactJS", "Java", "SpringBoot", "PostgresSQL", "Kafka", "Datadog", "Splunk"]
-        }
+[
+    {
+        "name" : "JPMorganChase",
+        "gradient" : "linear-gradient(45deg, rgba(97,54,29,1) 20%, rgba(149,96,64,1) 100%)",
+        "title": "Software Engineer I",
+        "start" : "Jul 2023",
+        "end" : "Jul 2024",
+        "experience" : ["Do nulla ullamco velit sunt magna. Reprehenderit quis et excepteur consequat dolor dolore non velit cillum laboris irure. Ipsum elit quis non mollit ea. Veniam ut incididunt sit cupidatat elit officia. Quis do est sint laboris duis do aliqua qui. Occaecat consequat reprehenderit eiusmod aliquip laborum eu."],
+        "tech" :  ["ReactJS", "SpringBoot", "Jest", "PostgresSQL", "Kafka", "Datadog", "Splunk", "Terraform", "AWS"]
     },
-    "2022" : {
-        "First Republic Bank" : {
-            "start" : 2022,
-            "end" : 2023,
-            "experience" : [],
-            "tech" :  ["ReactJS", "Java", "SpringBoot", "PostgresSQL", "Kafka", "Datadog", "Splunk"]
-        }
+    {
+        "name": "First Republic",
+        "gradient": "linear-gradient(45deg, rgba(32,99,10,1) 0%, rgba(13,161,13,1) 60%)",
+        "title": "Software Engineer, Developer Experience",
+        "start" : "Aug 2022",
+        "end" : "Jul 2023",
+        "experience" : ["Duis pariatur consequat ipsum in adipisicing. Dolore velit laboris enim labore nulla. Aute labore Lorem ea cillum anim non amet. Velit mollit nostrud in nulla dolor. Non laboris labore pariatur tempor consequat. Nisi amet deserunt magna non consequat non quis."],
+        "tech" :  ["Flask", "SpringBoot", "Node.js", ".NET", "Docker", "Kubernetes", "Jenkins", "JFrog Artifactory", "NewRelic", "Aquasec", "Veracode", "WebInspect", "AWS"]
+    },
+    {
+        "name": "UCIrvine Student Affairs IT",
+        "gradient": "linear-gradient(45deg, rgba(9,9,121,1) 0%, rgba(0,112,255,1) 100%)",
+        "title": "Full Stack Web Developer",
+        "start" : "Mar 2021",
+        "end" : "Jun 2022",
+        "experience" : ["Est elit consequat laboris exercitation est do eiusmod velit nisi voluptate excepteur irure nulla. Lorem irure magna laborum mollit cillum ex voluptate sunt dolor mollit irure est tempor duis. Consequat do aliqua tempor exercitation consectetur duis qui fugiat. Ullamco sit officia quis aliqua. Est Lorem minim nisi nisi sint nostrud occaecat velit ea sint mollit ut. Ullamco qui id commodo in commodo aute officia dolore. Non in velit cupidatat minim elit veniam culpa ut voluptate nostrud id Lorem velit."],
+        "tech" :  ["VueJS", "Laravel", "MySQL", "SASS", "Cypress", "Lando"]
     }
-}
+]

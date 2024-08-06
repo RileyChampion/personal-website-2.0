@@ -1,7 +1,7 @@
-
 import LandingPage from './views/LandingPage.tsx';
 import AboutMe from './views/AboutMe.tsx';
 import Navbar from './components/Navbar/Navbar.tsx';
+import Experience from './views/Experience.tsx';
 import ContactModal from './components/ContactModal/ContactModal.tsx';
 import React, {useState} from 'react';
 
@@ -18,6 +18,7 @@ function App() {
       <Navbar toggleModal={toggleModal} />
       <LandingPage/>
       <AboutMe />
+      <Experience />
       {showModal ? <ContactModal toggleModal={toggleModal} /> : <></> } 
     </div>
   );
