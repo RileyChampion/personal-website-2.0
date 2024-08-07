@@ -36,6 +36,9 @@
     }
     .experience-content-text-container {
         width: 100%;
+        display: grid;
+        grid-template-columns: 2.2fr;
+        grid-template-rows: 0.1fr 2.1fr 0.1fr;
         .experience-content-text-title {
             .experience-content-text-title-year {
                 display: inline-flex;
