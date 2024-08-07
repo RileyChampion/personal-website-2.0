@@ -10,7 +10,7 @@
     },
     {
         "name": "First Republic",
-        "gradient": "linear-gradient(45deg, rgba(32,99,10,1) 0%, rgba(13,161,13,1) 60%)",
+        "gradient": "linear-gradient(239.26deg, #0F5E12 29.68%, #2E7C31 68.65%)",
         "title": "Software Engineer, Developer Experience",
         "start" : "Aug 2022",
         "end" : "Jul 2023",
@@ -19,7 +19,7 @@
     },
     {
         "name": "UCIrvine Student Affairs IT",
-        "gradient": "linear-gradient(45deg, rgba(9,9,121,1) 0%, rgba(0,112,255,1) 100%)",
+        "gradient": "linear-gradient(59.26deg, #00263E -25.04%, #0064A4 72.93%)",
         "title": "Full Stack Web Developer",
         "start" : "Mar 2021",
         "end" : "Jun 2022",
