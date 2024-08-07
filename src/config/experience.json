@@ -1,6 +1,7 @@
 [
     {
         "name" : "JPMorganChase",
+        "website": "https://www.jpmorganchase.com/",
         "gradient" : "linear-gradient(45deg, rgba(97,54,29,1) 20%, rgba(149,96,64,1) 100%)",
         "title": "Software Engineer I",
         "start" : "Jul 2023",
@@ -10,6 +11,7 @@
     },
     {
         "name": "First Republic",
+        "website": "https://www.firstrepublic.com/",
         "gradient": "linear-gradient(239.26deg, #0F5E12 29.68%, #2E7C31 68.65%)",
         "title": "Software Engineer, Developer Experience",
         "start" : "Aug 2022",
@@ -19,6 +21,7 @@
     },
     {
         "name": "UCIrvine Student Affairs IT",
+        "website": "https://studentaffairs.uci.edu/",
         "gradient": "linear-gradient(59.26deg, #00263E -25.04%, #0064A4 72.93%)",
         "title": "Full Stack Web Developer",
         "start" : "Mar 2021",

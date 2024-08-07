@@ -63,7 +63,7 @@ function Navbar({toggleModal} : NavbarProps) {
                         <div className="navbar-link"><a href="#about-me">About Me</a></div>
                         <div className="navbar-link"><a href="#experience">Experience</a></div>
                         <div className="navbar-link"><a href="#projects">Projects</a></div>
-                        <div onClick={() => toggleModal(true)} className="navbar-link">Contacts</div>
+                        <div onClick={() => toggleModal(true)} className="navbar-link">Let's Connect</div>
                     </div>
                     <div id="navbar-links-mobile-container">
                         <FontAwesomeIcon onClick={() => toggleMobileNavMenu()} className="navbar-menu-icon" icon={faBars}/>

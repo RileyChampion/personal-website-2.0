@@ -18,8 +18,9 @@
     h1,h2,h3,h4,h5 {
         font-weight: 400;
     }
-    p {
-        font-family: 'Roboto', 'sans-serif';
+    a {
+        text-decoration: none;
+        width: 690px;
     }
     .experience-content-graphic {
         margin: 0px 15px;
@@ -28,10 +29,14 @@
         align-items: center;
         border-radius: 5px;
         box-shadow: 0px 6px 8.3px rgba(0, 0, 0, 0.25);
-        width: 690px;
+        transition: transform 150ms;
         height: 250px;
         h5 {
             font-size: 3ch;
+        }
+        &:hover {
+            transition: transform 150ms;
+            transform: scale(1.01);
         }
     }
     .experience-content-text-container {
@@ -45,13 +50,28 @@
                 justify-content: space-between;
                 align-items: center;
                 width: 100%;
+                a {
+                    width: unset;
+                    :hover .experience-link-icon {
+                        opacity: 1;
+                        transition: opacity 150ms, transform 150ms;
+                        transform: translate(0px);
+                    }
+                }
                 h3 {
                     font-size: 4ch;
-                    line-height: 1.5ch;
+                    line-height: 2ch;
                 }
                 h5 {
                     font-size: 2ch;
                     color: $text-color-secondary;
+                }
+                .experience-link-icon {
+                    font-size: 1ch;
+                    opacity: 0;
+                    transition: opacity 150ms, transform 150ms;
+                    transform: translate(-10px);
+                    margin-left: 5px;
                 }
             }
             h4 {
@@ -65,8 +85,8 @@
             margin-bottom: 10px;
         }
         .experience-content-text-tech-list {
-            font-size: 1.75ch;
-            font-weight: 300;
+            display: inline-flex;
+            flex-wrap: wrap;
         }
     }
 }

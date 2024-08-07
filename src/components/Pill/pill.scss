@@ -1,0 +1,13 @@
+@import '../../main.scss';
+
+.pill {
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: $accent-color;
+    width: fit-content;
+    margin-bottom: .5rem;
+    margin-right: .375rem;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5ch;
+    font-weight: 400;
+}

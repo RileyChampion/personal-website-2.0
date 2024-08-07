@@ -25,7 +25,7 @@ function ContactModal({toggleModal} : ContactModalProps) {
                     <div className="contact-modal-links">
                         <button 
                             className="contact-modal-link"
-                            onClick={()=> window.open("mailto:rchamp2u@gmail.com", "_blank")}
+                            onClick={()=> window.open("mailto:hello@rileychampion.com", "_blank")}
                         >
                             EMAIL
                         </button>
