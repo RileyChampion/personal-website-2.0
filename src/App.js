@@ -2,6 +2,7 @@ import LandingPage from './views/LandingPage.tsx';
 import AboutMe from './views/AboutMe.tsx';
 import Navbar from './components/Navbar/Navbar.tsx';
 import Experience from './views/Experience.tsx';
+import Projects from './views/Projects.tsx';
 import ContactModal from './components/ContactModal/ContactModal.tsx';
 import React, {useState} from 'react';
 
@@ -19,6 +20,7 @@ function App() {
       <LandingPage/>
       <AboutMe />
       <Experience />
+      <Projects />
       <div style={{textAlign: "center", padding: "10px 0px", fontSize: "2ch"}}>© Riley Champion</div>
       {showModal ? <ContactModal toggleModal={toggleModal} /> : <></> } 
     </div>

@@ -8,9 +8,7 @@ import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 function Experience() {
     return (
-        <div id="experience">
-            {
-            }
+        <section id="experience">
             <div id="experience-container">
                 <div id="experience-title">
                     <h2>EXPERIENCE</h2>
@@ -52,7 +50,7 @@ function Experience() {
                     })
                 }
             </div>
-        </div>
+        </section>
     );
 };
 

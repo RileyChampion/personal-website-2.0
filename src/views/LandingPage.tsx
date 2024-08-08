@@ -64,7 +64,7 @@ function LandingPage() {
                                 setSelectedInfo(1)
                             }}
                             >
-                                Front End Developer
+                                Full Stack Developer
                             </li>
                             <li>|</li>
                             <li className="landing-info-text"
@@ -100,7 +100,7 @@ function LandingPage() {
                         <h2>Champion</h2>
                     </div>
                     <Typewriter options={{
-                            strings: ['Software Engineer', 'Front End Developer', 'Part-Time Dnd Nerd'],
+                            strings: ['Software Engineer', 'Full Stack Developer', 'Part-Time Dnd Nerd'],
                             autoStart: true,
                             loop: true,
                         }}

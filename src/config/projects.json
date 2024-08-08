@@ -1,0 +1,44 @@
+[
+    {
+        "year": "2022",
+        "project" : "The Literacy Project",
+        "made_at" : "Commit The Change",
+        "built_with" : ["ReactJS", "Express", "PostgreSQL"],
+        "link" : "https://github.com/ctc-uci/the-literacy-project-frontend"
+    },
+    {
+        "year": "2021",
+        "project" : "Fabflix",
+        "made_at" : "",
+        "built_with" : ["HTML", "CSS", "JavaScript", "JSP", "JMeter", "XML Parsing", "AWS EC2", "GCE"],
+        "link" : "https://devpost.com/software/therapme"
+    },
+    {
+        "year": "2021",
+        "project" : "TherapME",
+        "made_at" : "HackDavis",
+        "built_with" : ["ReactJS", "Twilio API", "Mongoose", "GCP", "ExpressJS"],
+        "link" : "https://devpost.com/software/therapme"
+    },
+    {
+        "year": "2020",
+        "project" : "LIVEStream",
+        "made_at" : "",
+        "built_with" : ["JavaScript", "HTML", "CSS", "Twitch API"],
+        "link" : "https://github.com/RileyChampion/LIVEStreams"
+    },
+    {
+        "year": "2019",
+        "project" : "Kuma",
+        "made_at" : "RISE",
+        "built_with" : ["ReactJS", "Flask", "PostgreSQL", "Docker"],
+        "link" : "https://github.com/rise-summer/team6-education"
+    },
+    {
+        "year": "2019",
+        "project" : "CodeBattles",
+        "made_at" : "HackSC",
+        "built_with" : ["ReactJS", "MaterialUI", "CodeMirror", "Judge0", "AWS Lambdas", "AWS DynamoDB"],
+        "link" : "https://devpost.com/software/codebattle-c96yms"
+    }
+]
