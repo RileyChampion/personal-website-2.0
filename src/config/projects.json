@@ -1,5 +1,12 @@
 [
     {
+        "year": "2024",
+        "project" : "Personal Site 2.0",
+        "made_at" : "Personal Project ✌🏼",
+        "built_with" : ["ReactJS", "TypeScript", "SASS", "FontAwesome", "Figma"],
+        "link" : "https://rileychampion.com"
+    },
+    {
         "year": "2022",
         "project" : "The Literacy Project",
         "made_at" : "Commit The Change",
@@ -9,9 +16,9 @@
     {
         "year": "2021",
         "project" : "Fabflix",
-        "made_at" : "",
+        "made_at" : "CS 122B",
         "built_with" : ["HTML", "CSS", "JavaScript", "JSP", "JMeter", "XML Parsing", "AWS EC2", "GCE"],
-        "link" : "https://devpost.com/software/therapme"
+        "link" : "https://github.com/RileyChampion/_Fabflix"
     },
     {
         "year": "2021",
@@ -23,9 +30,23 @@
     {
         "year": "2020",
         "project" : "LIVEStream",
-        "made_at" : "",
+        "made_at" : "Personal Project ✌🏼",
         "built_with" : ["JavaScript", "HTML", "CSS", "Twitch API"],
         "link" : "https://github.com/RileyChampion/LIVEStreams"
+    },
+    {
+        "year": "2020",
+        "project" : "Personal Site 1.0",
+        "made_at" : "Personal Project ✌🏼",
+        "built_with" : ["HTML", "CSS", "JavaScript", "Figma"],
+        "link" : "https://rileychampion.github.io/personal-website"
+    },
+    {
+        "year": "2020",
+        "project" : "Snack Game Clone",
+        "made_at" : "Personal Project ✌🏼",
+        "built_with" : ["Python", "PyGame"],
+        "link" : "https://rileychampion.github.io/personal-website"
     },
     {
         "year": "2019",
@@ -40,5 +61,12 @@
         "made_at" : "HackSC",
         "built_with" : ["ReactJS", "MaterialUI", "CodeMirror", "Judge0", "AWS Lambdas", "AWS DynamoDB"],
         "link" : "https://devpost.com/software/codebattle-c96yms"
+    },
+    {
+        "year": "2018",
+        "project" : "Muffin Snatcher",
+        "made_at" : "UCI Video Game Development Club",
+        "built_with" : ["C#", "Unity", "Krita"],
+        "link" : "https://swelden.itch.io/muffin-snatcher-vgdc"
     }
 ]

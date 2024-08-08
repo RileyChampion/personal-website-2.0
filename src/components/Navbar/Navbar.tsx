@@ -74,7 +74,7 @@ function Navbar({toggleModal} : NavbarProps) {
                 <a href="#about-me"><div className="navbar-link">About Me</div></a>
                 <a href="#experience"><div className="navbar-link">Experience</div></a>
                 <a href="#projects"><div className="navbar-link">Projects</div></a>
-                <div onClick={() => toggleModal(true)} className="navbar-link">Contacts</div>
+                <div onClick={() => toggleModal(true)} className="navbar-link">Let's Connect</div>
             </div>
         </>
     )

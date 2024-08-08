@@ -21,7 +21,7 @@ function App() {
       <AboutMe />
       <Experience />
       <Projects />
-      <div style={{textAlign: "center", padding: "10px 0px", fontSize: "2ch"}}>© Riley Champion</div>
+      <div style={{textAlign: "center", padding: "10px 0px", fontSize: "3ch"}}>© Riley Champion</div>
       {showModal ? <ContactModal toggleModal={toggleModal} /> : <></> } 
     </div>
   );
