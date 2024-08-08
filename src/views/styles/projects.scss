@@ -24,8 +24,11 @@
     border-color: rgba(203, 213, 225, .1);
     border-bottom-width: 1px;
     z-index: 10;
-    top: 0;
+    top: 58px;
     position: sticky;
+    background-color: #3B4357;
+    box-shadow: 0px 1px 0px #515B77;
+    
 }
 
 #projects-table tr > th {
