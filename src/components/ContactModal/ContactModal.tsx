@@ -44,7 +44,7 @@ function ContactModal({toggleModal} : ContactModalProps) {
                         </button>
                         <button 
                             className="contact-modal-link"
-                            onClick={()=> window.open("https://www.linkedin.com/in/rileychampion/", "_blank")}
+                            onClick={()=> window.open("https://github.com/RileyChampion", "_blank")}
                         >
                             GITHUB
                         </button>
