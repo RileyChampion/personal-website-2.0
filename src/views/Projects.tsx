@@ -34,7 +34,7 @@ function Projects() {
                                             <td className="projects-table-cell-project">
                                                 <div>
                                                     <div className="projects-table-cell-name-sm-screen">
-                                                        <a href={project.link}>{project.project}<FontAwesomeIcon className="project-link-icon" icon={faAnglesRight} /></a>
+                                                        <a href={project.link} target="_blank" rel='noopener noreferrer'>{project.project}<FontAwesomeIcon className="project-link-icon" icon={faAnglesRight} /></a>
                                                     </div>
                                                     <div className="projects-table-cell-name-lg-screen">
                                                         {project.project}
@@ -49,7 +49,7 @@ function Projects() {
                                                 </div>
                                             </td>
                                             <td className="projects-table-cell-link">
-                                                <a href={project.link} target="_blank">{project.link.includes("github.com") ? <FontAwesomeIcon style={{marginRight: "5px"}} icon={faGithub} /> : "" } {project.link.includes("github.com") ? "GitHub" : project.link.replace(/^https?\:\/\//i, "") }<FontAwesomeIcon className="project-link-icon" icon={faAnglesRight} /></a>
+                                                <a href={project.link} target="_blank" rel='noopener noreferrer'>{project.link.includes("github.com") ? <FontAwesomeIcon style={{marginRight: "5px"}} icon={faGithub} /> : "" } {project.link.includes("github.com") ? "GitHub" : project.link.replace(/^https?:\/\//i, "") }<FontAwesomeIcon className="project-link-icon" icon={faAnglesRight} /></a>
                                             </td>
                                         </tr>
                                     );

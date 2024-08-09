@@ -3,11 +3,11 @@
         "name" : "JPMorganChase",
         "website": "https://www.jpmorganchase.com/",
         "gradient" : "linear-gradient(45deg, rgba(97,54,29,1) 20%, rgba(149,96,64,1) 100%)",
-        "title": "Software Engineer I",
+        "title": "Software Engineer I, Full-Stack",
         "start" : "Jul 2023",
         "end" : "Jul 2024",
-        "experience" : ["Do nulla ullamco velit sunt magna. Reprehenderit quis et excepteur consequat dolor dolore non velit cillum laboris irure. Ipsum elit quis non mollit ea. Veniam ut incididunt sit cupidatat elit officia. Quis do est sint laboris duis do aliqua qui. Occaecat consequat reprehenderit eiusmod aliquip laborum eu."],
-        "tech" :  ["ReactJS", "SpringBoot", "Jest", "PostgresSQL", "Kafka", "Datadog", "Splunk", "Terraform", "AWS"]
+        "experience" : ["Supported 50+ applications during First Republic and JPMorganChase merger leading to no data loss or downtime of applications used by First Republic developers and clients. Assisted JPMorganChase's Evidence team add additional procedures to their deployment dashboard and their CI pipeline evidence API."],
+        "tech" :  ["ReactJS", "Spring Boot", "Jest", "PostgreSQL", "Kafka", "Datadog", "Splunk", "Terraform", "AWS"]
     },
     {
         "name": "First Republic",
@@ -16,8 +16,8 @@
         "title": "Software Engineer, Developer Experience",
         "start" : "Aug 2022",
         "end" : "Jul 2023",
-        "experience" : ["Duis pariatur consequat ipsum in adipisicing. Dolore velit laboris enim labore nulla. Aute labore Lorem ea cillum anim non amet. Velit mollit nostrud in nulla dolor. Non laboris labore pariatur tempor consequat. Nisi amet deserunt magna non consequat non quis."],
-        "tech" :  ["Flask", "SpringBoot", "Node.js", ".NET", "Docker", "Kubernetes", "Jenkins", "JFrog Artifactory", "NewRelic", "Aquasec", "Veracode", "WebInspect", "AWS"]
+        "experience" : ["Developed a customized Python CLI build and deployment tools, streamlining processes for 1000+ engineers. Increased efforts of visibility of security vulnerabilities using Aquasec, WebInspect, and Veracode for the DevOps team’s internal sample applications and devops toolkit by running daily, automated Jenkins cronjobs. Began working on efforts to overhaul from Python to Golang and modularization efforts of the firm’s internal developer tool kit."],
+        "tech" :  ["Flask", "Spring Boot", "Node.js", ".NET", "Docker", "Kubernetes", "Jenkins", "JFrog Artifactory", "NewRelic", "Aquasec", "Veracode", "WebInspect", "AWS"]
     },
     {
         "name": "UCIrvine Student Affairs IT",
@@ -26,7 +26,7 @@
         "title": "Full Stack Web Developer",
         "start" : "Mar 2021",
         "end" : "Jun 2022",
-        "experience" : ["Est elit consequat laboris exercitation est do eiusmod velit nisi voluptate excepteur irure nulla. Lorem irure magna laborum mollit cillum ex voluptate sunt dolor mollit irure est tempor duis. Consequat do aliqua tempor exercitation consectetur duis qui fugiat. Ullamco sit officia quis aliqua. Est Lorem minim nisi nisi sint nostrud occaecat velit ea sint mollit ut. Ullamco qui id commodo in commodo aute officia dolore. Non in velit cupidatat minim elit veniam culpa ut voluptate nostrud id Lorem velit."],
+        "experience" : ["Utilized VueJS, PHP-Laravel, and MySQL to develop a responsive web portal for 10,000+ UC Irvine students registering for graduation ceremonies. Designed and deployed the Volunteer HQ view to enhance staff tracking of volunteer assignments, check-in/out statuses, and profiles, resulting in streamlined volunteer management processes. Launched a QR scanning check-in page, using vue-qrcode-reader, reducing student check-in time by 1 hour and improving the efficiency of volunteer management during graduation ceremonies."],
         "tech" :  ["VueJS", "Laravel", "MySQL", "SASS", "Cypress", "Lando"]
     }
 ]

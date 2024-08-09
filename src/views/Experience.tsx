@@ -18,7 +18,7 @@ function Experience() {
                         return (
                             <FadeInSection fadeIn="1.25s" floatUp="1.25s">
                                 <div key={"experience-"+ index} className="experience-content-container">
-                                    <a href={experience.website} target="_blank">
+                                    <a href={experience.website} target="_blank" rel='noopener noreferrer'>
                                         <div className="experience-content-graphic" style={{background: experience.gradient}}>
                                             <h5>{experience.name}</h5>
                                         </div>
@@ -26,7 +26,7 @@ function Experience() {
                                     <div className="experience-content-text-container">
                                         <div className="experience-content-text-title">
                                             <div className="experience-content-text-title-year">
-                                                <a href={experience.website}><h3>{experience.name}<FontAwesomeIcon className="experience-link-icon" icon={faAnglesRight} /></h3></a>
+                                                <a href={experience.website} target="_blank" rel='noopener noreferrer'><h3>{experience.name}<FontAwesomeIcon className="experience-link-icon" icon={faAnglesRight} /></h3></a>
                                                 <h5>{experience.start} - {experience.end}</h5>
                                             </div>
                                             <h4>{experience.title}</h4>

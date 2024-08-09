@@ -15,6 +15,7 @@ function AboutMe() {
                         <div className="about-me-content-image-box">
                             <img src={RileyPicture} 
                                 className="about-me-content-image"
+                                alt="Riley Champion"
                             />
                         </div>
                     </FadeInSection>
@@ -25,8 +26,9 @@ function AboutMe() {
                                     <h4>Hey! I'm Riley 👋🏼</h4>
                                 </div>
                                 <div className="about-me-content-info-text">
-                                    <p>Esse dolor eu aliqua consectetur esse aliquip. Et officia ut sit sint ullamco reprehenderit irure amet quis. Nulla labore magna ea aute officia irure aliqua proident anim ipsum. Dolore est nulla aute cupidatat. Incididunt amet sit do adipisicing. Culpa adipisicing quis eiusmod est anim incididunt eiusmod cupidatat amet magna.</p>
-                                    <p>Esse dolor eu aliqua consectetur esse aliquip. Et officia ut sit sint ullamco reprehenderit irure amet quis. Nulla labore magna ea aute officia irure aliqua proident anim ipsum. Dolore est nulla aute cupidatat. Incididunt amet sit do adipisicing. Culpa adipisicing quis eiusmod est anim incididunt eiusmod cupidatat amet magna.</p>
+                                    <p>I am a passionate software engineer, full stack developer, and D&D enthusiast with a love for creating seamless digital experiences and a passion for mental health awareness. After graduating from UC Irvine, I’ve had the privilege of working with DevOps teams at First Republic and contributing to JPMorganChase’s developer experience dashboards and deployment evidence tracking APIs. My prior experience also includes building large-scale web applications and commencement dashboards used by faculty and most importantly students to register for commencement ceremonies. My technical toolkit includes ReactJS, VueJS, FastAPI, Spring Boot, and a growing proficiency in Angular, which I’m currently mastering.</p>
+                                    <p>In my free time, I’ve enjoyed tapping into my creative side with art and design classes; as well as, keeping up to date with the latest trends in user interface and user experience design. My love for creating creative and interactive user interfaces has also allowed me to explore my interests in mobile development. Additionally, I'm a huge board game and video game nerd!</p>
+                                    <p>I’m always eager to connect with like-minded professionals or anyone interested in technology and mental health. Feel free to reach out—I’d love to hear from you!</p>
                                 </div>
                                 <div className="about-me-content-info-buttons-container">
                                     <button 

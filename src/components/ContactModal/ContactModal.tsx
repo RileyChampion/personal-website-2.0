@@ -17,6 +17,7 @@ function ContactModal({toggleModal} : ContactModalProps) {
                             <img
                                 src={RileyPicture}
                                 height="200px"
+                                alt="Riley Champion"
                             />
                         </div>
                     <h2>Riley Champion</h2>
