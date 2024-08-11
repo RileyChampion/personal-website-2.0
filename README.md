@@ -17,6 +17,9 @@ Things to do:
 - Optimize performance of loading CSS []
 - Add light mode mode to site []
 
+## Mockups
+![image](https://github.com/user-attachments/assets/931d0513-b4c3-4559-8809-58343a5ffbee)
+
 ## Tech Stack
 
 * Frameworks: [ReactJS](https://legacy.reactjs.org/docs/getting-started.html), [SASS](https://sass-lang.com/install/)
