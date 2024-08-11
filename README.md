@@ -1,8 +1,37 @@
-# Getting Started with Create React App
+# Personal Website 2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Revamp of my personal website from 2020 (https://github.com/RileyChampion/personal-website)
 
-## Available Scripts
+## Description
+
+The last time I had created my website was in 2020 when i finally sat down and started to learn web dev. While I could've gone with a another static website with vanilla HTML, CSS and JavaScript; but, I wanted to have more practice with React and continue to learn the lifecycle; as well as, make the app browser agnostic.
+
+Approach:
+- Designed in Figma going from low-fidelity mockups to more fleshed out/high-fidelity mockups
+- While I could have used Bootstrap or Tailwind for this project, I wanted to have more control for this projects so I opted to to most of these components myself and styling them
+- Iterative approach to different sections of the site starting from a top-down approach
+
+Things to do:
+- Improve web accessibility to site []
+- Add caraosel to the #projects section for highlighted projects []
+- Optimize performance of loading CSS []
+- Add light mode mode to site []
+
+## Tech Stack
+
+* Frameworks: [ReactJS](https://legacy.reactjs.org/docs/getting-started.html), [SASS](https://sass-lang.com/install/)
+* Packages: [typewritter-effect](https://www.npmjs.com/package/typewriter-effect), [FontAwesome](https://docs.fontawesome.com/web/setup/packages/#the-free-packages), [gh-pages](https://www.npmjs.com/package/gh-pages)
+
+## Getting Started
+
+### Installing
+
+Run npm install command to install dependencies
+```
+npm install
+```
+
+### Executing program
 
 In the project directory, you can run:
 
@@ -14,57 +43,27 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Help
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you spot any issues or bugs, feel free to raise an issue.
 
-### `npm run build`
+## Authors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributors names and contact info
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Riley Champion
+[Riley Champion](https://www.linkedin.com/in/rileychampion/) 
+[@r_champion](https://www.instagram.com/r_champion/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Version History
 
-### `npm run eject`
+* 0.2
+    * Fully fleshed out the website with about me, experience and projects sections.
+    * Worked on high fidelity mocks to fanialize an idea
+* 0.1
+    * Initial Release with landing page and links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inspiration, code snippets, etc.
+* [Brittany Chiang](https://brittanychiang.com/?ref=hackernoon.com)
