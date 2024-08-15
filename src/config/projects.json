@@ -1,6 +1,13 @@
 [
     {
         "year": "2024",
+        "project" : "Adventurer's Journal",
+        "made_at" : "Personal Project ✌🏼",
+        "built_with" : ["Next.JS", "TypeScript", "TailwindCSS", "Supabase", "Vercel", "Figma"],
+        "link" : "https://github.com/RileyChampion/adventurers-journal"
+    },
+    {
+        "year": "2024",
         "project" : "Personal Site 2.0",
         "made_at" : "Personal Project ✌🏼",
         "built_with" : ["ReactJS", "TypeScript", "SASS", "FontAwesome", "Figma"],
@@ -46,7 +53,7 @@
         "project" : "Snack Game Clone",
         "made_at" : "Personal Project ✌🏼",
         "built_with" : ["Python", "PyGame"],
-        "link" : "https://rileychampion.github.io/personal-website"
+        "link" : "https://github.com/RileyChampion/SnakeGame"
     },
     {
         "year": "2019",
