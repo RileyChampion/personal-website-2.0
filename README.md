@@ -59,11 +59,13 @@ Riley Champion
 [@r_champion](https://www.instagram.com/r_champion/)
 
 ## Version History
-
-* 0.2
+* 0.2.1
+    * Shrink size of the images and load based on component need
+    * Removed unneeded fonts for Roboto
+* 0.2.0
     * Fully fleshed out the website with about me, experience and projects sections.
     * Worked on high fidelity mocks to fanialize an idea
-* 0.1
+* 0.1.0
     * Initial Release with landing page and links
 
 ## Acknowledgments
