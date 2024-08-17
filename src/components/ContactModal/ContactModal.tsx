@@ -1,6 +1,6 @@
 import React from "react";
 import './contact-modal.scss';
-import RileyPicture from '../../images/riley.jpg';
+import RileyPicture from '../../images/riley-sm.jpg';
 
 interface ContactModalProps {
     toggleModal: (state : boolean) => void

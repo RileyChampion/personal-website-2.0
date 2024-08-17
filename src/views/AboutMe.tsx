@@ -1,7 +1,7 @@
 import React from "react";
 import FadeInSection from "../components/FadeInSection.tsx";
 import './styles/about-me.scss'
-import RileyPicture from '../images/riley.jpg';
+import RileyPicture from '../images/riley-md.jpg';
 
 function AboutMe() {
     return(
