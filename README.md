@@ -12,10 +12,10 @@ Approach:
 - Iterative approach to different sections of the site starting from a top-down approach
 
 Things to do:
-- Improve web accessibility to site []
-- Add caraosel to the #projects section for highlighted projects []
-- Optimize performance of loading CSS []
-- Add light mode mode to site []
+- [ ] Improve web accessibility to site
+- [ ] Add caraosel to the #projects section for highlighted projects
+- [ ] Optimize performance of loading CSS
+- [ ] Add light mode mode to site
 
 ## Mockups
 ![image](https://github.com/user-attachments/assets/931d0513-b4c3-4559-8809-58343a5ffbee)
