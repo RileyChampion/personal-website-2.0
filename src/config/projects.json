@@ -1,6 +1,13 @@
 [
     {
         "year": "2024",
+        "project" : "Two Rooms And A Boom - Web App",
+        "made_at" : "Personal Project ✌🏼",
+        "built_with" : ["ReactJS", "TypeScript", "Java", "Spring Boot", "Ably", "TailwindCSS"],
+        "link" : "https://github.com/Ji-Justin/TwoRoomsAndABoom-WebApp"
+    },
+    {
+        "year": "2024",
         "project" : "Adventurer's Journal",
         "made_at" : "Personal Project ✌🏼",
         "built_with" : ["Next.JS", "TypeScript", "TailwindCSS", "Supabase", "Vercel", "Figma"],
