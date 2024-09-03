@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0736a4c1.css",
-    "main.js": "/static/js/main.1bf82e90.js",
+    "main.js": "/static/js/main.87637944.js",
     "static/js/453.00c2c028.chunk.js": "/static/js/453.00c2c028.chunk.js",
     "static/media/riley-md.jpg": "/static/media/riley-md.84b88de983da15c23333.jpg",
     "static/media/riley-sm.jpg": "/static/media/riley-sm.d9dfc0c41ae928e70430.jpg",
     "index.html": "/index.html",
     "main.0736a4c1.css.map": "/static/css/main.0736a4c1.css.map",
-    "main.1bf82e90.js.map": "/static/js/main.1bf82e90.js.map",
+    "main.87637944.js.map": "/static/js/main.87637944.js.map",
     "453.00c2c028.chunk.js.map": "/static/js/453.00c2c028.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0736a4c1.css",
-    "static/js/main.1bf82e90.js"
+    "static/js/main.87637944.js"
   ]
 }
