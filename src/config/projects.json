@@ -1,6 +1,13 @@
 [
     {
         "year": "2024",
+        "project": "Role-Based User Authentication Service",
+        "made_at": "Personal Project ✌🏼",
+        "built_with": ["FastAPI", "SQLite", "Python", "GitHub Actions", "Docker", "AWS EC2"],
+        "link": "https://github.com/RileyChampion/ecommerce-user-service"
+    },
+    {
+        "year": "2024",
         "project" : "Two Rooms And A Boom - Web App",
         "made_at" : "Personal Project ✌🏼",
         "built_with" : ["ReactJS", "TypeScript", "Java", "Spring Boot", "Ably", "TailwindCSS"],
